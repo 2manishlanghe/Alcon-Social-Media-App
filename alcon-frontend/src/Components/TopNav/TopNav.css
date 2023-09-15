@@ -1,0 +1,53 @@
+.top-navbar {
+    position: relative;
+    background-color: #ffff;
+    margin-bottom: 3px;
+    border: 2px solid white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: right;
+    position: relative;
+    z-index: 1; /* Add z-index to ensure the navbar is below the search container */
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+  
+  .icons-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 5px;
+    padding-top: 8px;
+  }
+  
+  .avatar-wrapper {
+    border: 1px solid #777;
+    border-radius: 50%;
+  }
+  
+  /* p {
+    margin-bottom: 0%!important;
+  } */
+  /* div.chakra-stack > p {
+    margin-bottom: 0 !important;
+  } */
+  .chakra-text{
+    margin: o!important;
+  }
+  ul.user-profile{
+    margin-bottom: 0 !important;
+  }

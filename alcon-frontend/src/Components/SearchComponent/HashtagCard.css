@@ -1,0 +1,10 @@
+/* In your CSS file or styled-components */
+
+.hash-tag-card {
+    transition: transform 0.2s ease;
+  }
+  
+  .hash-tag-card:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,23 @@
+.comments{
+    /* overflow-y-scroll max-h-[50vh] */
+
+    overflow-y: scroll;
+    max-height: 43vh;
+
+}
+
+.comments::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .commentInput{
+   
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  .emoji-picker {
+    position: fixed;
+    bottom: 70px; /* Adjust this value to set the distance from the bottom */
+    right: 0;
+  }

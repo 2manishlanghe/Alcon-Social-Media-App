@@ -1,0 +1,1 @@
+export const SEARCH_HASHTAG = "SEARCH_HASHTAG";

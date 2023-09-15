@@ -1,0 +1,10 @@
+/* In your CSS file or styled-components */
+
+.hash-tag-post-card {
+    transition: transform 0.2s ease;
+  }
+  
+  .hash-tag-post-card:hover {
+    transform: scale(1.05); /* Scale down by 5% when hovered */
+  }
+  

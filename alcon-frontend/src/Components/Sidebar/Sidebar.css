@@ -1,0 +1,63 @@
+
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 30px;
+  color: #222222;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.hideItemName{
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+  border: 2px solid white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+  
+  .pt-10 {
+    padding-top: 5px;
+  }
+  
+  .mt-10 {
+    margin-top: 5px;
+  }
+  
+  .text-4xl {
+    font-size: 24px;
+  }
+  
+  .text-3xl {
+    font-size: 18px;
+  }
+  
+  .w-10 {
+    width: 20px;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .font-semibold {
+    font-weight: 500;
+  }
+}
